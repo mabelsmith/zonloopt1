@@ -1,0 +1,6 @@
+framework module Pods_oneZL_oneZLUITests {
+  umbrella header "Pods-oneZL-oneZLUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
