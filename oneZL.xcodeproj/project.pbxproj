@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A84690CC1725906A90390E /* Pods_oneZL_oneZLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E75D8CDF60A77FFCA19B406 /* Pods_oneZL_oneZLUITests.framework */; };
 		2E2ACE4824D36CA600D10DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE4724D36CA600D10DB2 /* AppDelegate.swift */; };
 		2E2ACE4A24D36CA600D10DB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE4924D36CA600D10DB2 /* SceneDelegate.swift */; };
 		2E2ACE4C24D36CA600D10DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE4B24D36CA600D10DB2 /* ViewController.swift */; };
@@ -16,6 +17,13 @@
 		2E2ACE5724D36CAA00D10DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2ACE5524D36CAA00D10DB2 /* LaunchScreen.storyboard */; };
 		2E2ACE6224D36CAA00D10DB2 /* oneZLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE6124D36CAA00D10DB2 /* oneZLTests.swift */; };
 		2E2ACE6D24D36CAA00D10DB2 /* oneZLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE6C24D36CAA00D10DB2 /* oneZLUITests.swift */; };
+		2E2ACE7B24D36DBF00D10DB2 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE7A24D36DBF00D10DB2 /* StartViewController.swift */; };
+		2E2ACE7D24D36DD400D10DB2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE7C24D36DD400D10DB2 /* LoginViewController.swift */; };
+		2E2ACE7F24D36DDF00D10DB2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE7E24D36DDF00D10DB2 /* SignUpViewController.swift */; };
+		2E2ACE8124D36DEA00D10DB2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2ACE8024D36DEA00D10DB2 /* HomeViewController.swift */; };
+		2E3F794124D3812D000B533C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E3F794024D3812C000B533C /* GoogleService-Info.plist */; };
+		32E073920C5A3CC6AD5FDD3B /* Pods_oneZL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CEE7CEED4AE99FAA37A270B /* Pods_oneZL.framework */; };
+		AB638B18177DE9AD70AD38FE /* Pods_oneZLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8012108DC78A965A90345674 /* Pods_oneZLTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E75D8CDF60A77FFCA19B406 /* Pods_oneZL_oneZLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneZL_oneZLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B7D201EE61D6983B00CDF /* Pods-oneZL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneZL.release.xcconfig"; path = "Target Support Files/Pods-oneZL/Pods-oneZL.release.xcconfig"; sourceTree = "<group>"; };
 		2E2ACE4424D36CA600D10DB2 /* oneZL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneZL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2ACE4724D36CA600D10DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E2ACE4924D36CA600D10DB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		2E2ACE6824D36CAA00D10DB2 /* oneZLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneZLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2ACE6C24D36CAA00D10DB2 /* oneZLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneZLUITests.swift; sourceTree = "<group>"; };
 		2E2ACE6E24D36CAA00D10DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2ACE7A24D36DBF00D10DB2 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		2E2ACE7C24D36DD400D10DB2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E2ACE7E24D36DDF00D10DB2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2E2ACE8024D36DEA00D10DB2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E3F794024D3812C000B533C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31C4AF9DCD4AD5ECA34663F3 /* Pods-oneZL-oneZLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneZL-oneZLUITests.release.xcconfig"; path = "Target Support Files/Pods-oneZL-oneZLUITests/Pods-oneZL-oneZLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5341255EEFD5CC6B49987B63 /* Pods-oneZLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneZLTests.release.xcconfig"; path = "Target Support Files/Pods-oneZLTests/Pods-oneZLTests.release.xcconfig"; sourceTree = "<group>"; };
+		6676A9C5FDA0420C50FB419F /* Pods-oneZLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneZLTests.debug.xcconfig"; path = "Target Support Files/Pods-oneZLTests/Pods-oneZLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7791B4F6C4F43E1084CD5DBE /* Pods-oneZL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneZL.debug.xcconfig"; path = "Target Support Files/Pods-oneZL/Pods-oneZL.debug.xcconfig"; sourceTree = "<group>"; };
+		7CEE7CEED4AE99FAA37A270B /* Pods_oneZL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneZL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8012108DC78A965A90345674 /* Pods_oneZLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneZLTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D0029FD82710D61306BC9D /* Pods-oneZL-oneZLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneZL-oneZLUITests.debug.xcconfig"; path = "Target Support Files/Pods-oneZL-oneZLUITests/Pods-oneZL-oneZLUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E073920C5A3CC6AD5FDD3B /* Pods_oneZL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB638B18177DE9AD70AD38FE /* Pods_oneZLTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A84690CC1725906A90390E /* Pods_oneZL_oneZLUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,8 @@
 				2E2ACE6024D36CAA00D10DB2 /* oneZLTests */,
 				2E2ACE6B24D36CAA00D10DB2 /* oneZLUITests */,
 				2E2ACE4524D36CA600D10DB2 /* Products */,
+				B5E2368E1F711B1F45E46112 /* Pods */,
+				E5A80259C2F840A9F9F060A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,9 +132,14 @@
 				2E2ACE4924D36CA600D10DB2 /* SceneDelegate.swift */,
 				2E2ACE4B24D36CA600D10DB2 /* ViewController.swift */,
 				2E2ACE4D24D36CA600D10DB2 /* Main.storyboard */,
+				2E2ACE7C24D36DD400D10DB2 /* LoginViewController.swift */,
+				2E2ACE7E24D36DDF00D10DB2 /* SignUpViewController.swift */,
+				2E2ACE8024D36DEA00D10DB2 /* HomeViewController.swift */,
+				2E2ACE7A24D36DBF00D10DB2 /* StartViewController.swift */,
 				2E2ACE5324D36CAA00D10DB2 /* Assets.xcassets */,
 				2E2ACE5524D36CAA00D10DB2 /* LaunchScreen.storyboard */,
 				2E2ACE5824D36CAA00D10DB2 /* Info.plist */,
+				2E3F794024D3812C000B533C /* GoogleService-Info.plist */,
 				2E2ACE5024D36CA600D10DB2 /* oneZL.xcdatamodeld */,
 			);
 			path = oneZL;
@@ -131,6 +163,29 @@
 			path = oneZLUITests;
 			sourceTree = "<group>";
 		};
+		B5E2368E1F711B1F45E46112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7791B4F6C4F43E1084CD5DBE /* Pods-oneZL.debug.xcconfig */,
+				2B5B7D201EE61D6983B00CDF /* Pods-oneZL.release.xcconfig */,
+				F8D0029FD82710D61306BC9D /* Pods-oneZL-oneZLUITests.debug.xcconfig */,
+				31C4AF9DCD4AD5ECA34663F3 /* Pods-oneZL-oneZLUITests.release.xcconfig */,
+				6676A9C5FDA0420C50FB419F /* Pods-oneZLTests.debug.xcconfig */,
+				5341255EEFD5CC6B49987B63 /* Pods-oneZLTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5A80259C2F840A9F9F060A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CEE7CEED4AE99FAA37A270B /* Pods_oneZL.framework */,
+				1E75D8CDF60A77FFCA19B406 /* Pods_oneZL_oneZLUITests.framework */,
+				8012108DC78A965A90345674 /* Pods_oneZLTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2ACE7124D36CAA00D10DB2 /* Build configuration list for PBXNativeTarget "oneZL" */;
 			buildPhases = (
+				6C162D5FEAC0A6F6CBE9D303 /* [CP] Check Pods Manifest.lock */,
 				2E2ACE4024D36CA600D10DB2 /* Sources */,
 				2E2ACE4124D36CA600D10DB2 /* Frameworks */,
 				2E2ACE4224D36CA600D10DB2 /* Resources */,
+				1DF66D92AC06FF3DE956FED2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2ACE7424D36CAA00D10DB2 /* Build configuration list for PBXNativeTarget "oneZLTests" */;
 			buildPhases = (
+				EC8CFC584EED8880EBC2E189 /* [CP] Check Pods Manifest.lock */,
 				2E2ACE5924D36CAA00D10DB2 /* Sources */,
 				2E2ACE5A24D36CAA00D10DB2 /* Frameworks */,
 				2E2ACE5B24D36CAA00D10DB2 /* Resources */,
@@ -173,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2ACE7724D36CAA00D10DB2 /* Build configuration list for PBXNativeTarget "oneZLUITests" */;
 			buildPhases = (
+				B924B4A4E4C73E9999DE6B78 /* [CP] Check Pods Manifest.lock */,
 				2E2ACE6424D36CAA00D10DB2 /* Sources */,
 				2E2ACE6524D36CAA00D10DB2 /* Frameworks */,
 				2E2ACE6624D36CAA00D10DB2 /* Resources */,
+				43A7EBF6B342CABCFA9047D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +297,7 @@
 			files = (
 				2E2ACE5724D36CAA00D10DB2 /* LaunchScreen.storyboard in Resources */,
 				2E2ACE5424D36CAA00D10DB2 /* Assets.xcassets in Resources */,
+				2E3F794124D3812D000B533C /* GoogleService-Info.plist in Resources */,
 				2E2ACE4F24D36CA600D10DB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,11 +318,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF66D92AC06FF3DE956FED2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oneZL/Pods-oneZL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oneZL/Pods-oneZL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oneZL/Pods-oneZL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43A7EBF6B342CABCFA9047D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oneZL-oneZLUITests/Pods-oneZL-oneZLUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oneZL-oneZLUITests/Pods-oneZL-oneZLUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oneZL-oneZLUITests/Pods-oneZL-oneZLUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C162D5FEAC0A6F6CBE9D303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oneZL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B924B4A4E4C73E9999DE6B78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oneZL-oneZLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8CFC584EED8880EBC2E189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oneZLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E2ACE4024D36CA600D10DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2ACE7D24D36DD400D10DB2 /* LoginViewController.swift in Sources */,
+				2E2ACE7F24D36DDF00D10DB2 /* SignUpViewController.swift in Sources */,
+				2E2ACE7B24D36DBF00D10DB2 /* StartViewController.swift in Sources */,
+				2E2ACE8124D36DEA00D10DB2 /* HomeViewController.swift in Sources */,
 				2E2ACE4C24D36CA600D10DB2 /* ViewController.swift in Sources */,
 				2E2ACE4824D36CA600D10DB2 /* AppDelegate.swift in Sources */,
 				2E2ACE5224D36CA600D10DB2 /* oneZL.xcdatamodeld in Sources */,
@@ -436,6 +604,7 @@
 		};
 		2E2ACE7224D36CAA00D10DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7791B4F6C4F43E1084CD5DBE /* Pods-oneZL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +622,7 @@
 		};
 		2E2ACE7324D36CAA00D10DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B5B7D201EE61D6983B00CDF /* Pods-oneZL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +640,7 @@
 		};
 		2E2ACE7524D36CAA00D10DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6676A9C5FDA0420C50FB419F /* Pods-oneZLTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +662,7 @@
 		};
 		2E2ACE7624D36CAA00D10DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5341255EEFD5CC6B49987B63 /* Pods-oneZLTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +684,7 @@
 		};
 		2E2ACE7824D36CAA00D10DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D0029FD82710D61306BC9D /* Pods-oneZL-oneZLUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +704,7 @@
 		};
 		2E2ACE7924D36CAA00D10DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C4AF9DCD4AD5ECA34663F3 /* Pods-oneZL-oneZLUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

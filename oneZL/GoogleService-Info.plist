@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>957719804910-vqp18kggeuttae2hdje13fq839ed2vl2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.957719804910-vqp18kggeuttae2hdje13fq839ed2vl2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAedkGR0BS3xgo0WjfxuZKPxupOw2AxgVU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>957719804910</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Zon-Loopt-RR.Zon-Loopt-App2</string>
+	<key>PROJECT_ID</key>
+	<string>zon-loopt-app-1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zon-loopt-app-1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:957719804910:ios:2e3e9a0cb4b92e3e54acff</string>
+	<key>DATABASE_URL</key>
+	<string>https://zon-loopt-app-1.firebaseio.com</string>
+</dict>
+</plist>
